@@ -1,0 +1,600 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "proximanova-regular";
+    src: url(font/Fontspring-DEMO-proximanova-regular.otf);
+}
+.navbar{
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.navbar a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.navbar a:hover{
+    color: #ffffffa9;
+}
+.brand img{
+    height: 40px;
+    width: 142px;
+}
+a{
+    text-decoration: none;
+}
+
+.items-1{
+    font-family: "proximanova-regular";
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    list-style: none;
+    color: #ffffff;
+    gap: 20px;
+    padding-left: 60px;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+}
+.items-1 button{
+    font-size: 9px;
+    font-weight: 700px;
+    height: 15px;
+    border: none;
+    border-radius: 2px;
+    background-color: #c7ebff;
+    color: #04458f;
+    padding: 1px 5px 1px 5px;
+}
+.threed{
+    display: flex;
+    gap: 5px;
+}
+.items-2{
+    font-family: "proximanova-regular";
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    list-style: none;
+    color: #ffffff;
+    gap: 20px;
+    align-items: center;
+    margin-left: 2%
+}
+.items-2 button{
+    font-family: "proximanova-regular";
+    font-weight: 700;
+    background: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 3px 10px 3px 10px;
+    display: flex;
+    align-items: center;
+}
+.items-2 .pricing a{
+    color: #fba707 ;
+}
+.header{
+    height: 650px;
+    width: 100%;
+    background: linear-gradient(180deg, #2d2db0 -65%, #2c8cf4 110%);
+}
+.head{
+    padding-top: 60px;
+}
+.heading{
+    text-align: center;
+}
+.heading h1{
+    font-family: "proximanova-regular";
+    font-size: 34px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.heading p{
+    font-family: "proximanova-regular";
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+}
+.searchbar input{
+    width: 768px;
+    height: 54px;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+}
+.btn:hover{
+    color: #2d2db0 !important;
+}
+.tags{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.tags button{
+    border: none;
+    background-color: #ffffff56;
+    color: #ffffff;
+    font-family: "proximanova-regular";
+    font-size: 13px;
+    padding: 2px 10px 2px 10px;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+.circleline{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.roundcircles{
+    width: 120px;
+    display: block;
+}
+.roundcircles p{
+    font-family: "proximanova-regular";
+    font-size: 16px;
+    color: #ffffffc0;
+    text-align: center;
+    padding-top: 20px;
+}
+.circle1{
+    border: 3px solid rgba(255, 255, 255, 0.527);;
+    border-radius: 70%;
+    height: 120px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle1 img{
+    border-radius: 50%;
+    height: 107px;
+    width: 107px;
+}
+.freesignup{
+    height: 84px;
+    width: 100%;
+    background-color: #c7ebff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para{
+    height: auto;
+    display: flex;
+    gap: 20px;
+}
+.freesignup p{
+    font-family: "proximanova-regular";
+    font-size: 18px;
+    font-weight: 600;
+    color: #374957;
+    align-items: center;
+    padding: 10px 0px 0px 0px;
+}
+.para button{
+    font-family: "proximanova-regular";
+    font-size: 16px;
+    font-weight: 600;
+    height: 44px;
+    padding: 0px 30px 0px 30px;
+    background-color: #1273eb;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+}
+.body{
+    height: auto;
+    width: 100%;
+    padding: 70px 0px 70px 0px;
+}
+.start{
+    text-align: center;
+}
+.start h2{
+    font-size: 30px;
+    color: #374957;
+    margin-bottom: 10px;
+}
+.start strong{
+    font-weight: 700;
+    color: #1273eb;
+}
+.start p{
+    font-family: "proximanova-regular";
+    font-size: 18px;
+    color: #5f7d95;
+}
+.imagesone{
+    width: 100%;
+    height: auto;
+    padding: 0px 20px 0px 20px;
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+}
+.img1{
+    background: url(images/positive-mad-hatter-keeps-hand-hat-smiles-happily-takes-part-carnival-dresses-halloween-party-poses-against-rosy-wall_273609-44406.avif);
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    border-top-left-radius: 10px;
+    padding: 15px 0px 0px 15px;
+    display: flex;
+    align-items: end;
+    transition: all 0.8s ;
+}
+.img1:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.259)  url(images/positive-mad-hatter-keeps-hand-hat-smiles-happily-takes-part-carnival-dresses-halloween-party-poses-against-rosy-wall_273609-44406.avif); 
+    background-blend-mode: darken;
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: 110%;
+}
+.imagesone p{
+    font-family: "proximanova-regular";
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.twoimg{
+    width: 25%;
+    height: 220px;
+    display: block;
+}
+.img2{
+    background:  url(images/red-female-sign-against-pink-background_360032-2481.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 220px;
+    padding: 15px 0px 0px 15px;
+    display: flex;
+    align-items: end;
+    margin-bottom: 10px;
+    transition: all 0.8s ;
+}
+.img2:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.259) url(images/red-female-sign-against-pink-background_360032-2481.avif);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%;
+}
+.img3{
+    background:  url(images/3d-illustration-march-8-international-women-day-concept_58466-14545.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 220px;
+    padding: 15px 0px 0px 15px;
+    display: flex;
+    align-items: end;
+    transition: all 0.8s ;
+}
+.img3:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.259) url(images/3d-illustration-march-8-international-women-day-concept_58466-14545.avif);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%;
+}
+.fourimg{
+    width: 25%;
+    height: 220px;
+    display: block;
+}
+.img4{
+    background: url(images/violet-mask-with-golden-sequins_23-2148401665.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 220px;
+    padding: 15px 0px 0px 15px;
+    display: flex;
+    align-items: end;
+    margin-bottom: 10px;
+    border-top-right-radius: 10px;
+    transition: all 0.8s ;
+}
+.img4:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.259) url(images/violet-mask-with-golden-sequins_23-2148401665.avif);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%;
+}
+.img5{
+    background: url(images/background-with-pink-feathers_226879-9.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 220px;
+    padding: 15px 0px 0px 15px;
+    display: flex;
+    align-items: end;
+    transition: all 0.8s ;
+}
+.img5:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.259) url(images/background-with-pink-feathers_226879-9.avif);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%;
+}
+
+.allfour{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 0px 20px 0px 20px;
+}
+.allfour p{
+    font-family: "proximanova-regular";
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.pic1{
+    background: url(images/3d-celebrate-winners-with-golden-cup-prize-winners-stars-holding-hand-award-ceremony-concept-pedestal-with-cartoon-style-3d-trophy-icon-vector-render-illustration-isolated-pink-backgr.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 220px;
+    padding: 15px 0px 0px 15px;
+    display: flex;
+    align-items: end;
+    border-bottom-left-radius: 10px;
+    transition: all 0.8s ;
+}
+.pic1:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.259) url(images/3d-celebrate-winners-with-golden-cup-prize-winners-stars-holding-hand-award-ceremony-concept-pedestal-with-cartoon-style-3d-trophy-icon-vector-render-illustration-isolated-pink-backgr.avif);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%;
+}
+.pic2{
+    background: url(images/colorful-ribbons-with-confetti-pink-background-generative-ai_791316-6285.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 220px;
+    padding: 15px 0px 0px 15px;
+    display: flex;
+    align-items: end;
+    transition: all 0.8s ;
+}
+.pic2:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.259) url(images/colorful-ribbons-with-confetti-pink-background-generative-ai_791316-6285.avif);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%;
+}
+.pic3{
+    background: url(images/crowd-fans-concert_186382-13395.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 220px;
+    padding: 15px 0px 0px 15px;
+    display: flex;
+    align-items: end;
+    transition: all 0.8s ;
+}
+.pic3:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.259) url(images/crowd-fans-concert_186382-13395.avif);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%;
+}
+.pic4{
+    background: url(images/3d-rendering-yeti_23-2149937567.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 220px;
+    padding: 15px 0px 0px 15px;
+    display: flex;
+    align-items: end;
+    border-bottom-right-radius: 10px;
+    transition: all 0.8s ease-in-out;
+}
+
+.pic4:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.259) url(images/3d-rendering-yeti_23-2149937567.jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%;
+}
+
+.creatorpara{
+    width: 100%;
+    height: auto;
+    padding: 0px 20px 0px 20px;
+    margin-top: 140px;
+}
+.creatorpara h2{
+    font-family: "proximanova-regular";
+    font-size: 30px;
+    font-weight: 600;
+    color: #374957;
+    margin-bottom: 10px;
+}
+.creatorpara p{
+    font-family: "proximanova-regular";
+    font-size: 18px;
+    color: #5f7d95;
+}
+.choice{
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+    text-align: center;
+}
+.choice h2{
+    font-family: "proximanova-regular";
+    font-size: 30px;
+    font-weight: 600;
+    color: #374957;
+    margin-bottom: 10px;
+}
+.choice strong{
+    font-weight: 700;
+    color: #1273eb;
+}
+.choice p{
+    font-family: "proximanova-regular";
+    font-size: 18px;
+    color: #5f7d95;
+}
+.listing{
+    width: 100%;
+    height: auto;
+    padding: 0px 70px 0px 120px;
+    display: flex;
+    margin-top: 60px;
+}
+.list{
+    height: auto;
+    width: 50%;
+    display: block;
+    padding-right: 120px;
+}
+.listpic{
+    height: auto;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.listpic img{
+    width: 520px;
+    height: 425px;
+}
+.list1{
+    display: flex;
+    margin-bottom: 30px;
+}
+.listlogo1 i{
+    background: linear-gradient(140deg, rgba(146,205,250,0.5) 0%, rgba(215,215,255,0.4) 100%);
+    border: none;
+    border-radius: 8px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2c8cf4;
+}
+.lis1cont{
+    margin-left: 20px;
+}
+.lis1cont h3{
+    font-family: "proximanova-regular";
+    font-size: 22px;
+    font-weight: 600;
+    color: #374957;
+}
+.lis1cont p{
+    font-family: "proximanova-regular";
+    font-size: 16px;
+    color: #5f7d95;
+}
+.colored{
+    margin-top: 70px;
+    height: 410px;
+    width: 100%;
+    background-color: #da6a3a;
+}
+.freepik{
+    height: 292px;
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+    margin-top: 90px;
+}
+.freepikcard{
+    height: 292px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(146,205,250,0.4) 0%, rgba(199,235,255,0.4) 100%);
+    border: none;
+    border-radius: 10px;
+    display: flex;
+}
+.joining{
+    width: 50%;
+    height: 300px;
+    padding: 50px 100px 50px 100px;
+    display: block;
+}
+.joining h2{
+    font-family: "proximanova-regular";
+    font-size: 30px;
+    font-weight: 600;
+    color: #374957;
+    margin-bottom: 30px;
+}
+.joining strong{
+    font-weight: 700;
+    color: #1273eb;
+}
+.joining p{
+    font-family: "proximanova-regular";
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #374957;
+}
+.joining button{
+    font-family: "proximanova-regular";
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 0px 30px 0px 30px;
+    height: 44px;
+    background-color: #1273eb;
+    border: none;
+    border-radius: 3px;
+    transition: all 0.8s;
+}
+.joining button:hover{
+    background-color: #0066ff;
+}
+.joinpic{
+    width: 50%;
+    height: auto;
+    margin-top: -35px;
+    display: flex;
+    justify-content: center;
+}
+.joinpic img{
+    height: 350px;
+    width: 440px;
+}
